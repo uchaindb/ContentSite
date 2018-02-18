@@ -2,6 +2,7 @@
 layout: post
 title:  区块链入门教程
 date:   2018-02-18 8:00:00 +0800
+author: 阮一峰
 categories: guide
 ---
 
