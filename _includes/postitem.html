@@ -1,0 +1,8 @@
+<li class="listing-item">
+  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+  <a href="{{ post.url }}" title="{{ post.title }}"{% if post.lang != page.lang %} lang="{{ post.lang }}"{% endif %}>{{ post.title }}</a>
+  {% if site.data.t[page.lang].postlanguagetip[post.lang] %}
+  <span class='language'>{{ site.data.t[page.lang].postlanguagetip[post.lang] }}</span>
+  {% endif %}
+</li>
+

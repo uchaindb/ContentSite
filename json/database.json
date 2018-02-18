@@ -1,0 +1,4 @@
+---
+permalink: /database.json
+---
+{{site.data.database | jsonify}}

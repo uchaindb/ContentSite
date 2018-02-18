@@ -1,0 +1,11 @@
+- id: 1
+  name: 灯火计划捐赠数据
+  description: 由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。
+  address: http://localhost:7847/api/rpc
+  image: https://placeimg.com/200/200/any
+- id: 2
+  name: XXXX捐赠数据
+  description: 由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。
+  address: http://localhost:7848/api/rpc
+  image: https://placeimg.com/100/100/any
+
