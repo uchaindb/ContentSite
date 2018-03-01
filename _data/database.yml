@@ -3,7 +3,7 @@
   description: 由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。
   address: http://dhcdb.uchaindb.com/api/rpc
   image: http://denghuoluxun.qlgy.org.cn/apple-touch-icon.png
-  staffpick: true
+  staffpick: 1
 - id: 2
   name: 本地测试用数据库
   description: test database, 由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。
