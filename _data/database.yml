@@ -3,9 +3,15 @@
   description: 由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。
   address: http://dhcdb.uchaindb.com/api/rpc
   image: http://denghuoluxun.qlgy.org.cn/apple-touch-icon.png
+  staffpick: true
 - id: 2
   name: 本地测试用数据库
-  description: 由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。
+  description: test database, 由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。
   address: http://localhost:7847/api/rpc
+  image: https://github.com/uchaindb/UClient/raw/master/cordova/model/icon.png?raw=true
+- id: 3
+  name: 本地测试用数据库2
+  description: test database, 由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。
+  address: http://localhost:7848/api/rpc
   image: https://github.com/uchaindb/UClient/raw/master/cordova/model/icon.png?raw=true
 
