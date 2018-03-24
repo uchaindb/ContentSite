@@ -1,17 +1,17 @@
 - id: 1
-  name: 灯火计划捐赠数据
-  description: 由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。
+  name: 灯火计划（慈善公募项目）内测数据
+  description: “灯火计划”是由鲁迅文化基金会和中国华侨公益基金会共同发起的一项大型文化公益计划，旨在文化精准帮扶。通过线上公益互助平台，发掘基层民众文化需求，吸收社会资助，招募文艺志愿者，提供文化普及教学服务。当前数据库为内测数据，正式数据上线时间待定。 
   address: http://dhcdb.uchaindb.com/api/rpc
   image: http://denghuoluxun.qlgy.org.cn/apple-touch-icon.png
   staffpick: 1
 - id: 2
-  name: 本地测试用数据库
-  description: test database, 由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。
-  address: http://localhost:7847/api/rpc
+  name: 本地测试用数据库（端口5000）
+  description: 本地测试用数据库，使用基本的默认端口，对于从官方下载的服务器端，在运行后，可以直接使用。
+  address: http://localhost:5000/api/rpc
   image: https://github.com/uchaindb/UClient/raw/master/cordova/model/icon.png?raw=true
 - id: 3
-  name: 本地测试用数据库2
-  description: test database, 由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。由。。。运营，保存有从xxx开始的数据，为实时数据，接受大众监督。
-  address: http://localhost:7848/api/rpc
+  name: 本地开发用数据库（端口7847）
+  description: 本地开发用数据库，使用基本的默认端口，对于开发环境，可以直接使用。
+  address: http://localhost:7847/api/rpc
   image: https://github.com/uchaindb/UClient/raw/master/cordova/model/icon.png?raw=true
 
