@@ -21,13 +21,13 @@ categories: guide
 
 如图1，区块链网络正好处于一个时间节点，其所有节点的区块链拥有完全相同的数据，即区块链的末尾为白色五星区块。
 
-{% include image name="640" %}
+{% include image name="640.jpg" %}
 
 <span style="color: rgb(136, 136, 136);">图1</span>
 
 随着时间推移，位于左侧的节点X和位于右侧的节点Y在同一时间成功的产生了新的区块，但左侧节点X产生了白色三角形的新区块，而右侧节点Y则产生了橙色倒三角形，并同时开始向与其连接的其他节点广播其新区块。如图2左。
 
-{% include image name="640(1)" %}
+{% include image name="640(1).jpg" %}
 
 <span style="color: rgb(136, 136, 136);">图2</span>
 
@@ -37,7 +37,7 @@ categories: guide
 
 随着时间推移，其中某一个节点在优先收到的尾部节点的基础上进行计算，并成功的计算出了一个新的区块，随即它便向它周围的节点进行广播它的成果，凡是接收到它的新区块的节点，都会因为它广播的这个区块使得这个分支比其他分支更长，而将尾部区块更新到这个分支上来。如图3左。
 
-{% include image name="640(2)" %}
+{% include image name="640(2).jpg" %}
 
 <span style="color: rgb(136, 136, 136);">图3</span>
 
@@ -45,7 +45,7 @@ categories: guide
 
 以上过程演示了区块生成并在分布式网络中传播，并通过简单的机制选择区块分支的全过程，在比特币网络中，这样的事情可以说随时都在发生。  
 
-{% include image name="640(3)" %}
+{% include image name="640(3).jpg" %}
 
 * * *
 
@@ -65,7 +65,7 @@ categories: guide
 
 * * *
 
-{% include image name="640(4)" %}
+{% include image name="640(4).jpg" %}
 
 **<span style="color: rgb(0, 122, 170);"></span>**  
 

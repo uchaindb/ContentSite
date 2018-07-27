@@ -28,7 +28,7 @@ hello大家好，上期更新了我的区块链教程的第一个章节，主要
 
 6、重要基础概念（软分叉、硬分叉、拜占庭将军问题、授权区块链）
 
-{% include image name="640" %}
+{% include image name="640.jpg" %}
 
 <span style="color: rgb(178, 178, 178);font-size: 15px;">集齐6颗就能召唤神龙（误）</span>
 
@@ -49,7 +49,7 @@ hello大家好，上期更新了我的区块链教程的第一个章节，主要
 
 <span style="color: rgb(0, 122, 170);font-size: 20px;"></span>
 
-{% include image name="640(1)" %}
+{% include image name="640(1).jpg" %}
 
 <span style="color: rgb(0, 122, 170);font-size: 20px;"></span><span style="color: rgb(178, 178, 178);">开始战斗！</span>
 
@@ -69,11 +69,11 @@ hello大家好，上期更新了我的区块链教程的第一个章节，主要
 
 如下图所示，无论原始内容改动是多么的小，或者变化多么的大，其通过哈希函数后的输出都会非常的不一样。
 
-{% include image name="640(2)" %}
+{% include image name="640(2).jpg" %}
 
 由于哈希算法的输出值是固定长度的，而原始数据的长度却是任意，在理论上存在不同的原始数据对应同一哈希值的可能，如下图所示情况。
 
-{% include image name="640(3)" %}
+{% include image name="640(3).jpg" %}
 
 这种情况在原始数据的数量极其庞大的时候就会出现。然而由于哈希计算的抗冲突性，即找到有冲突的两个输入的代价非常大，所以人为的想要持续找到两个冲突的哈希值的可能性接近于零。
 
@@ -81,7 +81,7 @@ hello大家好，上期更新了我的区块链教程的第一个章节，主要
 
 我们从一个故事讲起，Alice想要发送消息给Bob，但是通讯通道并不安全，Eve在通讯通道中将消息截获并将Alice发送的内容修改后发送给Bob。如下图，Alice原本想要将“8”这个消息发送给Bob，但是Eve在通讯通道中悄悄的把“8”改成了“9”，并告诉Bob这个消息就是Alice发送给他的。
 
-{% include image name="640(4)" %}
+{% include image name="640(4).jpg" %}
 
 我们现在需要一种机制，<span style="color: rgb(255, 76, 0);">使得Bob可以确认他所收到的消息确实是Alice所想要传达的，并明确这个消息并没有被任何人修改过，</span>这种机制就是数字签名机制。
 
@@ -89,19 +89,19 @@ hello大家好，上期更新了我的区块链教程的第一个章节，主要
 
 此处将步骤列为表格形式
 
-{% include image name="640(5)" %}
+{% include image name="640(5).jpg" %}
 
 以上表格中“只有Alice知道的信息”列中的信息及计算过程，是只有Alice才知道的，不应该被泄漏的，一旦泄漏了，那整个签名的可靠性便无从谈起了；而“所有人都知道的信息”列中的信息及计算过程，可以被Bob或者Eve知道，而对于Eve即便知道了这些信息，但是如果没有得到仅有Alice知道的信息d，Eve也是无法方便的篡改和伪造信息的。
 
 以上整体过程如下图所示：
 
-{% include image name="640(6)" %}
+{% include image name="640(6).jpg" %}
 
 在本例中，私钥即只有Alice知道的d，而公钥就是公开的n。
 
 如果Eve试图篡改信息“8”为“9”，会使得2^3=8<span style="font-size: 16px;">≠ 9mod15 ，等式不成立，即说明信息被修改了，为此，Eve必须试图一同篡改签名s，于是Eve必须做以下一系列的运算：</span>
 
-{% include image name="640(7)" %}
+{% include image name="640(7).jpg" %}
 
 Eve总共做了9次运算才找到一个有效的签名，以此来篡改和伪造数据，在本例中我们使用了非常小的数字，所以Eve才能在相对较短的时间完成篡改和伪造数据，但如果我们使用以下稍微大一点的数字呢？
 
@@ -109,15 +109,15 @@ Eve总共做了9次运算才找到一个有效的签名，以此来篡改和伪�
 
 <span style="color: rgb(0, 122, 170);">当m=8时，</span>
 
-{% include image name="640(8)" %}
+{% include image name="640(8).jpg" %}
 
 <span style="color: rgb(0, 122, 170);">做验证的时候只需要做：</span>
 
-{% include image name="640(9)" %}
+{% include image name="640(9).jpg" %}
 
 <span style="color: rgb(0, 122, 170);">便可以轻松的通过签名验证信息，但如果Eve试图伪造，不得不做以下一系列的艰难运算：</span>
 
-{% include image name="640(10)" %}
+{% include image name="640(10).jpg" %}
 
 <span style="color: rgb(0, 122, 170);">而随着我们选取的数字越大，Eve在有限时间内可以伪造的可能性就越小。  
 </span>
@@ -145,7 +145,7 @@ Eve总共做了9次运算才找到一个有效的签名，以此来篡改和伪�
 
 以上步骤形成的示意图如下：
 
-{% include image name="640(11)" %}
+{% include image name="640(11).jpg" %}
 
 <span style="color: rgb(61, 167, 66);">**<span style="font-size: 20px;">>>扩展（八卦）知识</span>**</span>
 
@@ -154,7 +154,7 @@ Eve总共做了9次运算才找到一个有效的签名，以此来篡改和伪�
 
 <span style="color: rgb(61, 167, 66);">**<span style="font-size: 20px;"></span>**</span>
 
-{% include image name="640(12)" %}
+{% include image name="640(12).jpg" %}
 
 **<span style="color: rgb(61, 167, 66);">1、为什么是Alice和Bob？</span>**
 
@@ -189,6 +189,6 @@ RSA密码体系的三位作者Rivest、Shamir、Adleman，在其于1978年2月�
 
 **<span style="color: rgb(0, 122, 170);"></span>**
 
-{% include image name="640(13)" %}
+{% include image name="640(13).jpg" %}
 
 **<span style="color: rgb(0, 122, 170);"></span>**  

@@ -22,7 +22,7 @@ categories: guide
 
 让我们开始征程吧~
 
-{% include image name="640" %}
+{% include image name="640.jpg" %}
 
 * * *
 
@@ -54,7 +54,7 @@ categories: guide
 
 区块链的历史，其实就是比特币的历史。
 
-{% include image name="640(1)" %}
+{% include image name="640(1).jpg" %}
 
 #### <span style="color: rgb(255, 76, 0);">**1.1.1      比特币的发布到壮大**</span>
 
@@ -82,7 +82,7 @@ categories: guide
 
 比特币的各项技术基础也在比特币之前一步一步的成型了。
 
-{% include image name="640(2)" %}
+{% include image name="640(2).jpg" %}
 
 1979年，拉尔夫·默克尔（Ralph Merkle）将其提出的默克尔树申请了专利。
 
@@ -106,7 +106,7 @@ categories: guide
 
 2013年3月12日，比特币迎来了重大的0.8版本，该版本会产生超过0.7版本允许大小的区块（由于开发者没有注意到原作者中本聪写的区块大小限制，这也是后来非常重大的功能“隔离见证”试图解决的问题），导致比特币网络出现明显的分叉，对于用户能感知到的，是可以在运行0.7和0.8版本的交易所（即两个分叉）上分别花掉一次同一份钱。作为反馈，Mt. Gox交易所临时停止了比特币的提现，比特币价格也迅速的下跌。当时的主要矿工讨论决定将新版本退回到旧版本0.7，使得0.8版本导致的分叉被废弃掉，几个小时后，整个比特币网络重新恢复了共识。
 
-{% include image name="640(3)" %}
+{% include image name="640(3).jpg" %}
 
 <span style="color: rgb(0, 122, 170);">**<span style="font-size: 20px;">下一章节预告：</span>**</span>
 
@@ -122,7 +122,7 @@ categories: guide
 
   
 
-{% include image name="640(4)" %}
+{% include image name="640(4).jpg" %}
 
 感谢小漫画作者汐亚 weibo.com/lovehiya 喵喵~
 

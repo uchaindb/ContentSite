@@ -6,13 +6,13 @@ author: 梁爽——冰河魔法师
 categories: guide
 ---
 
-{% include image name="640" %}
+{% include image name="640.jpg" %}
 
 <span style="color: rgb(0, 122, 170);">**<span style="font-size: 20px;"></span>**</span>  
 
 区块链是一条链状，通过一条链将许多区块锁定在这个区块链上，然而因为多种理由，可能是人为的修改共识，也可能是正常共识阶段临时产生的不同步型分叉，使得一条链在某个分叉点后分成互相没有交集的两条链。
 
-{% include image name="640(1)" %}
+{% include image name="640(1).jpg" %}
 
 **<span style="color: rgb(255, 76, 0);">在比特币的百科上有这样的描述：</span>**
 
@@ -103,11 +103,11 @@ categories: guide
 
 *   第一种结果：一大批节点都不支持新的共识规则，继续使用以前老的共识（通常是老客户端）运作，这时候也有一定数量的节点开始使用新的共识规则（通常是新客户端）。那这个时候，两边不同的共识都会拒绝对方共识产生的区块，使得他们分裂成为两种不同的区块链（加密货币）。
 
-{% include image name="640(2)" %}
+{% include image name="640(2).jpg" %}
 
 *   第二种结果：大部分节点都同意更改共识规则，迫使使用老共识规则的节点，不得不改变他们的共识规则，改变成新共识规则，最终由所有节点共同产生一条新的区块链。
 
-{% include image name="640(3)" %}
+{% include image name="640(3).jpg" %}
 
 **<span style="color: rgb(61, 167, 66);font-size: 18px;">什么是软分叉</span>**
 
@@ -126,7 +126,7 @@ categories: guide
 
 因此在软分叉发生后，是有可能产生如下图所示的情况，即新老客户端均能产生互相识别为合法的区块，但随着该次分叉修改的程度高低，出现该种情况的几率呈负增长。
 
-{% include image name="640(4)" %}
+{% include image name="640(4).jpg" %}
 
 * * *
 
@@ -146,7 +146,7 @@ categories: guide
 
 * * *
 
-{% include image name="640(5)" %}
+{% include image name="640(5).jpg" %}
 
 **<span style="color: rgb(0, 122, 170);"></span>**  
 
