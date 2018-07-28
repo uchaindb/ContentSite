@@ -1,6 +1,6 @@
 - id: 1
   name: 灯火计划（慈善公募项目）
-  description: “灯火计划”是由鲁迅文化基金会和中国华侨公益基金会共同发起的一项大型文化公益计划，旨在文化精准帮扶。通过线上公益互助平台，发掘基层民众文化需求，吸收社会资助，招募文艺志愿者，提供文化普及教学服务。项目地址：http://denghuoluxun.qlgy.org.cn
+  description: “灯火计划”是由鲁迅文化基金会和中国华侨公益基金会共同发起的一项大型文化公益计划，旨在文化精准帮扶。通过线上公益互助平台，发掘基层民众文化需求，吸收社会资助，招募文艺志愿者，提供文化普及教学服务。项目地址：http://denghuoluxun.qlgy.org.cn。备注：库中各处的时间均采用世界标准时(UTC)，非北京时间。
   address: http://dhcdb.uchaindb.com/api/rpc
   image: http://denghuoluxun.qlgy.org.cn/apple-touch-icon.png
   staffpick: 1
