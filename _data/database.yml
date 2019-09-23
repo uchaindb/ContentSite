@@ -5,11 +5,17 @@
   image: http://denghuoluxun.qlgy.org.cn/apple-touch-icon.png
   staffpick: 1
 - id: 2
+  name: 素图网
+  description: 素图网，是一个使用区块链技术，将图片库中的图片收益切实的分享给图片创作者本人，并确保图片创作者本人的图片的各方面权利不受任意平台左右的平台 
+  address: https://stcdb.uchaindb.com/api/rpc
+  image: http://www.sutupic.com/apple-touch-icon.png
+  staffpick: 1
+- id: 1001
   name: 本地测试用数据库（端口5000）
   description: 本地测试用数据库，使用基本的默认端口，对于从官方下载的服务器端，在运行后，可以直接使用。
   address: http://localhost:5000/api/rpc
   image: https://github.com/uchaindb/UClient/raw/master/cordova/model/icon.png?raw=true
-- id: 3
+- id: 1002
   name: 本地开发用数据库（端口7847）
   description: 本地开发用数据库，使用基本的默认端口，对于开发环境，可以直接使用。
   address: http://localhost:7847/api/rpc
